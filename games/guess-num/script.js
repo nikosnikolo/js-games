@@ -1,4 +1,5 @@
-let number = Math.floor(Math.random() * 10) + 1;
+let score=0;
+let number = Math.floor(Math.random() * 10) + 0;
 
 function check() {
 
@@ -6,7 +7,7 @@ function check() {
 
     if (guess == number) {
         document.getElementById("result").innerText =
-            "Correct!";
+            "Swsta to scro einai "+score;
     }
     else {
         document.getElementById("result").innerText =
