@@ -6,9 +6,10 @@ function check() {
     let guess = document.getElementById("guess").value;
 
     if (guess == number) {
-        document.getElementById("result").innerText =
-            "Swsta to scro einai "+score;
-    }
+    score++;
+    document.getElementById("result").innerText =
+        "swsta , to score sou einai : " + score;
+}
     else {
         document.getElementById("result").innerText =
             "Wrong! Try Again";
