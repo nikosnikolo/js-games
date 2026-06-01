@@ -8,10 +8,10 @@ function check() {
     if (guess == number) {
         score++;
         document.getElementById("result").innerText =
-            "Σωστά! Το score σου είναι: " + score;
+            "swsta to score sou einai: " + score;
     }
     else {
         document.getElementById("result").innerText =
-            "Λάθος! Ξαναπροσπάθησε";
+            "lathos ,dokimase xana";
     }
 }
